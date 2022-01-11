@@ -1,5 +1,7 @@
 export class CheckingAccount {
   ag;
+  client;
+
   _amount = 0;
 
   withdraw = (value) => {
@@ -8,5 +10,12 @@ export class CheckingAccount {
 
   deposit = (value) => {
     if (value > 0) return (this._amount += value);
+  };
+
+  transfer = (value, account) => {
+    const valueWithdraw = this.withdraw(value);
+    account.deposit(valueWithdraw);
+    console.log("Transfer performed successfully!!!");
+    return;
   };
 }
