@@ -1,21 +1,12 @@
 {
   "name": "bytebank",
   "version": "1.0.0",
-  "description": "Projeto de estudo Bytebank",
+  "description": "Projeto do bytebank para seus clientes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HerbertNordson/js-orientado-a-objetos.git"
-  },
-  "author": "Herbert Nordson",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HerbertNordson/js-orientado-a-objetos/issues"
-  },
-  "homepage": "https://github.com/HerbertNordson/js-orientado-a-objetos#readme",
   "type": "module"
 }
